@@ -1,4 +1,4 @@
-Car Valuation API
+# Car Valuation API
 
 
 This API can be used to generate teh value of a car based on a set of factors:
@@ -22,6 +22,11 @@ To install, you can begin by running `npm install`. This should download all the
 Next, you can start the server using `npm run prod` to start the server in production mode or `npm run dev` to start it in dev mode. You can also set the port if you don't want to use the default 3000 by running `NODE_PORT=3001 npm run dev`
 
 Thats it! You can begin interacting with the API.
+
+
+# Architecture
+This repository only includes a HTTP webserver. If you intend to open this up to users, you should include a front
+end HTTPS proxy like NGINX to this service.
 
 
 ## Endpoints
