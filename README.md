@@ -42,13 +42,16 @@ This endpoint can be used to generate a valuation. You will need to provide it w
 Fields:
 <table>
 <tr>
-  <td>initial_value</td><td> The value of your car to be used as the starting calculation </td>
+<th>field</th><th>Description</th><th>Datatype</th>
+</tr>
+<tr>
+  <td>initial_value</td><td> The value of your car to be used as the starting calculation </td><td>Decimal</td>
   </tr>
-  <td>number_of_collisions</td> <td>The number of collisions on the vehicle</td>
+  <td>number_of_collisions</td> <td>The number of collisions on the vehicle</td><td>Int</td>
    </tr>
-  <td>age</td><td> The number of months old the car is</td>
+  <td>age</td><td> The number of months old the car is</td><td>Int</td>
    </tr>
-  <td>mileage</td><td>How many miles are on the car</td>
+  <td>mileage</td><td>How many miles are on the car</td><td>Int</td>
    </tr>
-  <td>previous_owner_count</td><td> Excluding you, how many previous owners were there</td>
+  <td>previous_owner_count</td><td> Excluding you, how many previous owners were there</td><td>Int</td>
    </tr></table>
