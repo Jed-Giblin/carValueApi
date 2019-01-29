@@ -39,7 +39,12 @@ Files:
 <table>
 <tr>
   <td>initial_value</td><td> The value of your car to be used as the starting calculation </td>
+  </tr>
   <td>number_of_collisions</td> <td>The number of collisions on the vehicle</td>
+   </tr>
   <td>age</td><td> The number of months old the car is</td>
+   </tr>
   <td>mileage</td><td>How many miles are on the car</td>
+   </tr>
   <td>previous_owner_count</td><td> Excluding you, how many previous owners were there</td>
+   </tr></table>
